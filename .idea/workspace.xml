@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4848e28-38ea-4add-8dbd-4cbdd2f8f6ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BehaviouralDesignPatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/BikePathCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/CarPathCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/GoogleMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/PathCalculatorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/PathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/WalkPathCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Observable/IOrderPlacedObservableInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Observable/OrderPlacedImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Observers/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Observers/GenerateTaxInvoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Observers/IOrderPlacedAlertObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverDesignPattern/Observers/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -46,10 +43,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainApplication">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StrategyDesignPattern.Client" />
       <module name="BehaviouralDesignPatterns" />
@@ -63,8 +61,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObserverDesignPattern.MainApplication" />
+      <module name="BehaviouralDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ObserverDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApplication" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
